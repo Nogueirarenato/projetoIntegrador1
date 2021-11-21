@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Renato Nogueira\\Desktop\\Projeto Integrador\\projetoIntegrador1\\BackEnd\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero.csproj": {}
+    "C:\\Users\\Renato Nogueira\\OneDrive\\Área de Trabalho\\ProjetoIntegrador\\projetoIntegrador1\\BackEnd\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Renato Nogueira\\Desktop\\Projeto Integrador\\projetoIntegrador1\\BackEnd\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero.csproj": {
+    "C:\\Users\\Renato Nogueira\\OneDrive\\Área de Trabalho\\ProjetoIntegrador\\projetoIntegrador1\\BackEnd\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Renato Nogueira\\Desktop\\Projeto Integrador\\projetoIntegrador1\\BackEnd\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero.csproj",
+        "projectUniqueName": "C:\\Users\\Renato Nogueira\\OneDrive\\Área de Trabalho\\ProjetoIntegrador\\projetoIntegrador1\\BackEnd\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero.csproj",
         "projectName": "DesperdicioZero",
-        "projectPath": "C:\\Users\\Renato Nogueira\\Desktop\\Projeto Integrador\\projetoIntegrador1\\BackEnd\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero.csproj",
+        "projectPath": "C:\\Users\\Renato Nogueira\\OneDrive\\Área de Trabalho\\ProjetoIntegrador\\projetoIntegrador1\\BackEnd\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero.csproj",
         "packagesPath": "C:\\Users\\Renato Nogueira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Renato Nogueira\\Desktop\\Projeto Integrador\\projetoIntegrador1\\BackEnd\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero\\obj\\",
+        "outputPath": "C:\\Users\\Renato Nogueira\\OneDrive\\Área de Trabalho\\ProjetoIntegrador\\projetoIntegrador1\\BackEnd\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -99,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

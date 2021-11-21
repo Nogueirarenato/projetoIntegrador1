@@ -1,0 +1,1 @@
+caffold-DbContext ""Server=DESKTOP-27I7PJN\\SQLEXPRESS; Database=DESPERDICIOZERO;Integrated Security=True"" Microsoft.EntityFrameworkCore.SqlServer -Context Models

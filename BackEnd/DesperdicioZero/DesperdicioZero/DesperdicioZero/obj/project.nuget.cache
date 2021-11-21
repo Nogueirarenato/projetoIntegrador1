@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T5Dunv5RdNnqJGU3nzWjgrsmScddA9At0O9AZNo0lRv4hXyZsvSWAATvh3kPux3qsvRmv3dC++lSy+h7POwGqQ==",
+  "dgSpecHash": "lZxyKR4ydn5hmsfj1tJaVJVS+hS5Usl6Fua639uwere1r6/weL6YFeofQgtTdOGhEGLsu+4YnOmizYScJBps8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Renato Nogueira\\Desktop\\Projeto Integrador\\projetoIntegrador1\\BackEnd\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero.csproj",
+  "projectFilePath": "C:\\Users\\Renato Nogueira\\OneDrive\\Área de Trabalho\\ProjetoIntegrador\\projetoIntegrador1\\BackEnd\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Renato Nogueira\\.nuget\\packages\\autoqueryable\\1.7.0\\autoqueryable.1.7.0.nupkg.sha512",
     "C:\\Users\\Renato Nogueira\\.nuget\\packages\\autoqueryable.aspnetcore.filter\\1.7.0\\autoqueryable.aspnetcore.filter.1.7.0.nupkg.sha512",

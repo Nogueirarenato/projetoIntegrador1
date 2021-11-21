@@ -1,0 +1,5 @@
+Visual Studio 
+Visual Studio Code
+SQL Server Express
+Site www.draw.io
+BR modelo
