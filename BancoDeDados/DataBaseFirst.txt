@@ -1,1 +1,15 @@
-caffold-DbContext ""Server=DESKTOP-27I7PJN\\SQLEXPRESS; Database=DESPERDICIOZERO;Integrated Security=True"" Microsoft.EntityFrameworkCore.SqlServer -Context Models
+Scaffold-DbContext "server=DESKTOP-P47U9V9\SQLEXPRESS; Database=DESPERDICIOZERO;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Model -Context "DesperdicioZeroContext" -f
+
+DESKTOP-P47U9V9\SQLEXPRESS
+
+
+
+PM> Scaffold-DbContext "server=DESKTOP-P47U9V9\SQLEXPRESS; Database=DESPERDICIOZERO;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -o Models -c AppDbContext
+Scaffold-DbContext : 
+
+
+
+Pacotes entity
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.EntityFrameworkCore.SqlServer.Design
