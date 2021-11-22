@@ -39,6 +39,7 @@ namespace DesperdicioZero.Controllers
             }
         }
 
+        //Adicionar um usuário
         [HttpPost]
         public IActionResult Post(Usuario usuario)
         {
@@ -53,6 +54,35 @@ namespace DesperdicioZero.Controllers
             }
         }
 
+        //Modificar um Usuario
+        [HttpPut()]
+        public IActionResult Put(Usuario usuario)
+        {
+
+            UsuarioRepository.Editar(usuario);
+            if (UsuarioRepository.Editar(usuario) == null) { return NotFound(); }
+            return Ok();
+
+        }
+
+        //Apagar um Usuario
+        [HttpDelete()]
+        public IActionResult Delete(Usuario usuario)
+        {
+            int id = new int();
+            id = usuario.Idusuario;
+
+            try
+            {
+                UsuarioRepository.Apagar(id);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return NotFound();
+            }
+
+        }
 
     }
 }

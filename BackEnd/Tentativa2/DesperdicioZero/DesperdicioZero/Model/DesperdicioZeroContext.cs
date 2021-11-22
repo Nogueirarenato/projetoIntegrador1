@@ -27,7 +27,7 @@ namespace DesperdicioZero.Model
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("server=DESKTOP-P47U9V9\\SQLEXPRESS; Database=DESPERDICIOZERO;Integrated Security=True");
+                optionsBuilder.UseSqlServer("server=DESKTOP-27I7PJN\\SQLEXPRESS; Database=DESPERDICIOZERO;Integrated Security=True");
             }
         }
 

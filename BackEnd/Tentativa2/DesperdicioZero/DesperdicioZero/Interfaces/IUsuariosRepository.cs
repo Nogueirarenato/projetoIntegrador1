@@ -11,5 +11,7 @@ namespace DesperdicioZero.Interfaces
     {
         List<Usuario> Listar();
         void Cadastrar(Usuario usuario);
+        Usuario Editar(Usuario usuario);
+        void Apagar(int id);
     }
 }

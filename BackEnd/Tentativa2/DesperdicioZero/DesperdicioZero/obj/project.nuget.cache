@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v+iQBQ6ujarpJH1srREDgAl3kBoYI3yQZfiXglryA/53g3+YMRDE3gYWcNXh02bNVYgvCvs0wVVgDZ9KYTt0qQ==",
+  "dgSpecHash": "9qk3sePKyXp4RTnAgUho1e+e+UWPUqtF4NqVOjr830Gk+76Zz7xvl3KGq1azxvpwUOfqvUamEFD6Ns8jYVjQMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Renato Nogueira\\Desktop\\Projeto Integrador\\projetoIntegrador1\\BackEnd\\Tentativa2\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero.csproj",
+  "projectFilePath": "C:\\Users\\Renato Nogueira\\OneDrive\\Área de Trabalho\\ProjetoIntegrador\\projetoIntegrador1\\BackEnd\\Tentativa2\\DesperdicioZero\\DesperdicioZero\\DesperdicioZero.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Renato Nogueira\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Renato Nogueira\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
