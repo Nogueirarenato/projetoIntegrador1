@@ -37,7 +37,7 @@ namespace DesperdicioZero.Repositories
                 usuarioExiste.IdTipo = usuario.IdTipo;
                 usuarioExiste.Telefone = usuario.Telefone;
                 usuarioExiste.Documento = usuario.Documento;
-
+                
 
 
                 ctx.Usuario.Update(usuarioExiste);
