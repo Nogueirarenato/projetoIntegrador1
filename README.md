@@ -11,11 +11,11 @@ O **Frontend** foi desenvolvido utilizando **HTML**, **CSS**, e **JavaScript**, 
 
 ## Desenvolvedores
 
-<p>Edicleide Alves Dos Santos</p>  						
+<p>Edicleide Alves Dos Santos</p>
 <p>Evelyn De Paula Fernandes</p>  				
-<p>Matheus Vinicius Dias Barbosa</p>  	
-<p>Michelle Gomes Guimarães</p>  				
-<p>Renato Nogueira Da Silva</p>  					
+<p>Matheus Vinicius Dias Barbosa</p>
+<p>Michelle Gomes Guimarães</p>
+<p>Renato Nogueira Da Silva</p>
 <p>Wellington Washington Andrade De Melo Júnior</p>   
 
 ## Orientador
