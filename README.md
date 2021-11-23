@@ -1,4 +1,4 @@
-## Sobre
+## Sobre Modificação 01
 
  A plataforma **Desperdício Zero!** foi idealizada durante o segundo semestre de 2021 como parte da disciplina **Projeto Integrador I** pelos alunos do Eixo de Computação do  Pólo de Osasco da **Univesp** .   
 O objetivo da plataforma é servir como elo entre estabelecimentos e consumidores, ofertando produtos que estão próximos à data de vencimento.
