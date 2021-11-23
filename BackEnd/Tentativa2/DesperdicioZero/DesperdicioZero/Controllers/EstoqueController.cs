@@ -1,4 +1,5 @@
 ﻿using DesperdicioZero.Interfaces;
+using DesperdicioZero.Model;
 using DesperdicioZero.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -39,52 +40,51 @@ namespace DesperdicioZero.Controllers
             }
         }
 
-        //        //Adicionar um usuário
-        //        [HttpPost]
-        //        public IActionResult Post(Usuario usuario)
-        //        {
-        //            try
-        //            {
-        //                UsuarioRepository.Cadastrar(usuario);
-        //                return Ok();
-        //            }
-        //            catch (System.Exception ex)
-        //            {
-        //                return BadRequest();
-        //            }
-        //        }
+        //Adicionar um estoque
+        [HttpPost]
+        public IActionResult Post(Estoque estoque)
+        {
+            try
+            {
+                EstoqueRepository.Cadastrar(estoque);
+                return Ok();
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest();
+            }
+        }
 
-        //        //Modificar um Usuario
-        //        [HttpPut()]
-        //        public IActionResult Put(Usuario usuario)
-        //        {
+        //Modificar um estoque
+        [HttpPut()]
+        public IActionResult Put(Estoque estoque)
+        {
 
-        //            UsuarioRepository.Editar(usuario);
-        //            if (UsuarioRepository.Editar(usuario) == null) { return NotFound(); }
-        //            return Ok();
+            EstoqueRepository.Editar(estoque);
+            if (EstoqueRepository.Editar(estoque) == null) { return NotFound(); }
+            return Ok();
 
-        //        }
+        }
 
-        //        //Apagar um Usuario
-        //        [HttpDelete()]
-        //        public IActionResult Delete(Usuario usuario)
-        //        {
-        //            int id = new int();
-        //            id = usuario.Idusuario;
+        //Apagar um estoque
+        [HttpDelete()]
+        public IActionResult Delete(Estoque estoque)
+        {
+            int id = new int();
+            id = estoque.Idestoque;
 
-        //            try
-        //            {
-        //                UsuarioRepository.Apagar(id);
-        //                return Ok();
-        //            }
-        //            catch (Exception ex)
-        //            {
-        //                return NotFound();
-        //            }
+            try
+            {
+                EstoqueRepository.Apagar(id);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return NotFound();
+            }
 
-        //        }
+        }
 
-        //    }
-        //}
+
     }
 }

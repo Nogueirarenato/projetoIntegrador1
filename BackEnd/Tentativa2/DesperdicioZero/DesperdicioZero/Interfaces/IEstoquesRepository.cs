@@ -9,5 +9,8 @@ namespace DesperdicioZero.Interfaces
     interface IEstoquesRepository
     {
         List<Estoque> Listar();
+        void Cadastrar(Estoque estoque);
+        Estoque Editar(Estoque estoque);
+        void Apagar(int id);
     }
 }
