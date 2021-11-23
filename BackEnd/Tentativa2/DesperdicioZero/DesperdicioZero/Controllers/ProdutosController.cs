@@ -66,26 +66,25 @@ namespace DesperdicioZero.Controllers
 
         }
 
-        //        //Apagar um Usuario
-        //        [HttpDelete()]
-        //        public IActionResult Delete(Usuario usuario)
-        //        {
-        //            int id = new int();
-        //            id = usuario.Idusuario;
+        //Apagar um Produto
+        [HttpDelete()]
+        public IActionResult Delete(Produto produto)
+        {
+            int idproduto = new int();
+            idproduto = produto.Idproduto;
 
-        //            try
-        //            {
-        //                UsuarioRepository.Apagar(id);
-        //                return Ok();
-        //            }
-        //            catch (Exception ex)
-        //            {
-        //                return NotFound();
-        //            }
+            try
+            {
+                ProdutoRepository.Apagar(idproduto);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return NotFound();
+            }
 
-        //        }
+        }
 
-        //    }
-        //}
     }
 }
+ 

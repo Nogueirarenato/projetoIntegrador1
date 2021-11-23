@@ -11,5 +11,6 @@ namespace DesperdicioZero.Interfaces
         List<Produto> Listar();
         void Cadastrar(Produto produto);
         Produto Editar(Produto produto);
+        void Apagar(int idproduto);
     }
 }

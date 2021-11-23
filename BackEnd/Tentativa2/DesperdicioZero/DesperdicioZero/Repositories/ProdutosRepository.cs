@@ -11,6 +11,13 @@ namespace DesperdicioZero.Repositories
     {
         DesperdicioZeroContext ctx = new DesperdicioZeroContext();
 
+        public void Apagar(int idproduto)
+        {
+            Produto produtoProcurado = ctx.Produto.Find(idproduto);
+            ctx.Produto.Remove(produtoProcurado);
+            ctx.SaveChanges();
+        }
+
         public void Cadastrar(Produto produto)
         {
             ctx.Produto.Add(produto);
