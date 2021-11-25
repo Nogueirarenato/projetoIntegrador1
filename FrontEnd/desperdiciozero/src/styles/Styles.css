@@ -25,7 +25,7 @@
 
 .login{
 width: 30vw;
-height: 30vh;
+height: 50vh;
 background: #c5d2e0;
 display: flex;
 flex-direction: row;
@@ -35,6 +35,33 @@ margin:auto;
 margin-top: 3%;
 border-radius: 20px;
 }
+
+.login3{
+    width: 50vw;
+    height: 60vh;
+    background: #c5d2e0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-top: 3%;
+    border-radius: 20px;
+    }
+
+    .login5{
+        width: 50vw;
+        height:68vh;
+        background: #c5d2e0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+        margin-top: 1%;
+        border-radius: 20px;
+        font-size: 0.8em;
+        }
 
 
 .link2{
