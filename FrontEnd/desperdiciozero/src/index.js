@@ -6,9 +6,10 @@ import { Routes, Route, BrowserRouter as Router} from "react-router-dom"
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Administrador from "./pages/Administrador";
-import FazerPedido from './pages/FazerPedido'
-import Vendedor from './pages/Vendedor'
-import EfetuarCadastro from './pages/EfetuarCadastro'
+import FazerPedido from './pages/FazerPedido';
+import Vendedor from './pages/Vendedor';
+import EfetuarCadastro from './pages/EfetuarCadastro';
+import CadastrarProduto from './pages/CadastrarProduto';
 
 
 
@@ -25,6 +26,7 @@ const routing = (
 <Route exact path="/FazerPedido" element={<FazerPedido/>} />
 <Route exact path="/Vendedor" element={<Vendedor/>} />
 <Route exact path="/EfetuarCadastro" element={<EfetuarCadastro/>} />
+<Route exact path="/CadastrarProduto" element={<CadastrarProduto/>} />
 </Routes> 
 </Router>
 
