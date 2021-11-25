@@ -108,6 +108,9 @@ render(){
         <div>
             <Header></Header>
             <div  className= "bodyReact">
+            
+            <div className="login">
+            <div className="login2">
             <h1>Login</h1>
             
 
@@ -131,6 +134,11 @@ render(){
 
 
             <Link to="/">retornar a página inicial</Link>
+            
+            </div>
+            </div>
+
+
             </div>
             <Footer></Footer>
         </div>

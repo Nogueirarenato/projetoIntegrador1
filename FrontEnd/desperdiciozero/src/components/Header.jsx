@@ -4,7 +4,7 @@ import "../styles/Styles.css"
 const Header = () => {
     return (
         <div className="header">
-            <h2>Header</h2>
+            <a className="link1" href=".\"><h1>Projeto Desperdício Zero!</h1></a>
             
         </div>
     );

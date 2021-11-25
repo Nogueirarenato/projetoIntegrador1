@@ -1,20 +1,112 @@
 .bodyReact{
-    height: 80vh;
+    min-height: 70vh;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
 .footer{
-    height: 10vh;
-    background-color: rgb(255, 255, 255);
+    
+    background-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
+    display: flexbox;
+    padding-bottom: 10vh;
+
+    
+}
+.link1{
+    text-decoration: none;
+    color: rgb(194, 194, 194);
+    display: inline;
+}
+
+
+
+.login{
+width: 30vw;
+height: 30vh;
+background: #c5d2e0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin:auto;
+margin-top: 3%;
+border-radius: 20px;
+}
+
+
+.link2{
+    text-decoration: none;
+    color: rgb(194, 194, 194);
+    display: inline;
+    font-size: 0.3em;
+    
+}
+
+.nav01{
+    display: inline;
 }
 
 .header{
-    height: 10vh;
-    background-color: rgb(255, 255, 255);
+    min-height: 10vh;
+    background-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
+    color:rgb(235, 227, 227);
+    text-align:center;
+    font-size: 2em;
+    
+
+}
+
+.footer-l{
+    
+    max-width:  50vw;
+    display: inline-block;
+    color: rgb(128, 127, 127);
+    padding-left: 10vw;
+    padding-bottom: 2vh;
+}
+
+.footer-m{
+    max-width:  15vw;
+    display: inline-block;
+    color: #807f7f; 
+    padding-left: 10vh;
+    
+    
+}
+.b{
+    font-weight: 600;
+    font-weight: bolder;
+        
+}
+
+.img-1{
+    display: inline-block;
+    max-width:  10vw;
+    height: auto;
+    background-color:rgb(0, 0, 0);
+    
+}
+.img-2{
+    max-width:  3vw;
+    height: auto;
+    display: inline-block;
+    background-color:rgb(0, 0, 0);
+    
+    
+}
+
+.footer-n{
+    max-height: 25vh;
+    display: inline-block;
+    color: rgb(128, 127, 127); 
+    background-color: rgb(8, 8, 8);
+    padding-left: 5vw;
+    max-width: 20vw;
+    
+
 }
