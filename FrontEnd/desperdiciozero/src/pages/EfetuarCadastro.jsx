@@ -16,6 +16,7 @@ class EfetuarCadastro extends Component {
 
         super();
         this.state = {
+            idEstoque: "",
             idTipo: 2,
             email: "",
             senha: "",
@@ -118,13 +119,13 @@ class EfetuarCadastro extends Component {
 
                             <form>
                                 <div>
-                                    
+
                                     <input type="text" placeholder="email" onChange={this.atualizaEmail.bind(this)} />
-                                    
+
                                 </div>
                                 <div>
                                     <input type="password" placeholder="Digite uma senha" onChange={this.atualizaSenha.bind(this)} />
-                                    
+
 
                                 </div>
                                 <div>

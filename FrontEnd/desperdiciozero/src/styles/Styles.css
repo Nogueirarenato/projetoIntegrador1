@@ -63,6 +63,20 @@ border-radius: 20px;
         font-size: 0.8em;
         }
 
+.painelvendedor{
+    width: 50vw;
+    height:68vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-top: 1%;
+    border-radius: 20px;
+    font-size: 3em;
+    
+    
+}
 
 .link2{
     text-decoration: none;
@@ -136,4 +150,11 @@ border-radius: 20px;
     max-width: 20vw;
     
 
+}
+
+.linkVendedor{
+    text-decoration: none;
+    color: black;
+    
+    
 }
