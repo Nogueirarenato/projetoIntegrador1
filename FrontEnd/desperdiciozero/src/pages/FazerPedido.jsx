@@ -100,11 +100,11 @@ class FazerPedido extends Component {
                                         return (
 
                                             <tr key={element.idproduto}>
-                                                <td >{element.idproduto}</td>
+                                                <td className="tac">{element.idproduto}</td>
                                                 <td>{element.nome}</td>
-                                                <td >{(element.dataDeValidade).charAt(8)+(element.dataDeValidade).charAt(9)+"/"+(element.dataDeValidade).charAt(5)+(element.dataDeValidade).charAt(6)+"/"+(element.dataDeValidade).charAt(0)+(element.dataDeValidade).charAt(1)+(element.dataDeValidade).charAt(2)+(element.dataDeValidade).charAt(3)}</td>
-                                                <td >R$ {(element.valorVenda * ((100 - element.desconto) / 100)).toFixed(2)}</td>
-                                                <td >{element.quantidade}</td>
+                                                <td className="tac">{(element.dataDeValidade).charAt(8)+(element.dataDeValidade).charAt(9)+"/"+(element.dataDeValidade).charAt(5)+(element.dataDeValidade).charAt(6)+"/"+(element.dataDeValidade).charAt(0)+(element.dataDeValidade).charAt(1)+(element.dataDeValidade).charAt(2)+(element.dataDeValidade).charAt(3)}</td>
+                                                <td className="tac">R$ {(element.valorVenda * ((100 - element.desconto) / 100)).toFixed(2)}</td>
+                                                <td className="tac">{element.quantidade}</td>
                                                 <td >{element.descricao}</td>
                                         
                                                 <td><input type="number" id="quantity" name="quantity" min="0" max={element.quantidade} placeholder="0"/></td>
@@ -117,7 +117,7 @@ class FazerPedido extends Component {
                         </Table>
                     </div>
 
-                    <Link to="/">retornar a página inicial</Link>
+                    <Link to="/" style={{marginLeft: '80vw'}}>Fazer Logoff</Link>
                 </div>
                 <Footer></Footer>
             </div>

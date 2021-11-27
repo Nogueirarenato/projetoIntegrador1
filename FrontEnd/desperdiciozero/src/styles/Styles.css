@@ -141,11 +141,15 @@ border-radius: 20px;
     
 }
 
+.tac{
+    text-align: center;
+}
+
 .footer-n{
     max-height: 25vh;
     display: inline-block;
     color: rgb(128, 127, 127); 
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(0, 0, 0);
     padding-left: 5vw;
     max-width: 20vw;
     
